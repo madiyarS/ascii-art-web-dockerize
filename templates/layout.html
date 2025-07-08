@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASCII Art Result</title>
+  <link rel="stylesheet" href="/static/css/layout.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>ASCII Art Generator</h1>
+    <p>Here's your generated ASCII art!</p>
+  </header>
+
+  <!-- Output Section -->
+  <main>
+    <section>
+      <h2>Result:</h2>
+
+      <!-- Display input text and banner -->
+      <div>
+        <p><strong>Input Text:</strong></p>
+        <p>{{ .Input }}</p>
+      </div>
+      <div>
+        <p><strong>Banner Style:</strong></p>
+        <p>{{ .Banner }}</p>
+      </div>
+
+      <!-- Display the ASCII Art result -->
+      <div>
+        <textarea name="output" id="ascii-output" rows="20" readonly>{{ .Result }}</textarea>
+      </div>
+    </section>
+    <div style="text-align: center;">
+      <a href="/" class="back-button">Back to Home</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ASCII Art Web | Built by Tomorrow school student using Go ❤️</p>
+  </footer>
+
+</body>
+
+</html>

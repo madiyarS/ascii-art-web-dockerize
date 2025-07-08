@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASCII Art Generator</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body class="body">
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="header-title">ASCII Art Generator</h1>
+    <p class="header-subtitle">Convert your text into beautiful ASCII art!</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <form method="POST" action="/layout">
+      <!-- Text Input -->
+      <div class="form-group">
+        <label for="text" class="form-label">Enter Text:</label>
+        <textarea id="input-text" name="input-text" rows="5" required class="textarea"
+          placeholder="Type something..."></textarea>
+      </div>
+
+      <!-- Banner Selection -->
+      <div class="form-group">
+        <label class="form-label">Select Banner Style:</label>
+        <div class="banner-options">
+          <label class="radio-label">
+            <input type="radio" name="banner" value="shadow" required /> Shadow
+          </label>
+          <label class="radio-label">
+            <input type="radio" checked name="banner" value="standard" /> Standard
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="banner" value="thinkertoy" /> Thinkertoy
+          </label>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div>
+        <button type="submit" class="btn-submit">
+          Generate ASCII Art
+        </button>
+      </div>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-text">&copy; 2025 ASCII Art Web | Built by Tomorrow school student using Go ❤️</p>
+  </footer>
+
+</body>
+
+</html>

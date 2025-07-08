@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Main Content Styles */
+.main-content {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.form-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+/* Banner Options Styles */
+.banner-options {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.radio-label input {
+    margin-right: 5px;
+}
+
+/* Button Styles */
+.btn-submit {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1e4db7;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.footer-text {
+    font-size: 14px;
+}

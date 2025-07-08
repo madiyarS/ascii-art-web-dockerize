@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go ASCII Art - Error</title>
+  <link rel="stylesheet" href="/static/css/error.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <a href="/">Go ASCII Art</a>
+      <a href="/" class="back-button">Back</a>
+    </div>
+  </nav>
+
+  <!-- Error Content -->
+  <div class="container py-12">
+    <!-- Title -->
+    <div class="text-center">
+      <h1>Go ASCII Art</h1>
+    </div>
+
+    <!-- Error GIF -->
+    <div class="flex mt-6">
+      <img src="/errors/goError.gif" alt="Error">
+    </div>
+
+    <!-- Error Code -->
+    <div class="flex mt-6">
+      <h1>{{.Code}}</h1>
+    </div>
+
+    <!-- Error Message -->
+    <div class="flex mt-4">
+      <p>{{.ErrorMsg}}</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+</html>

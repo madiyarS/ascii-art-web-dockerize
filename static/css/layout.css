@@ -1,0 +1,124 @@
+body {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+header p {
+    font-size: 0.9rem;
+    margin-top: 1px;
+
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+}
+
+section h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+section p {
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+}
+
+textarea {
+    width: 100%;  /* Takes up full width of its container */
+    height: auto;
+    min-height: 200px;
+    padding: 0.75rem;
+    background-color: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: clamp(0.75rem, 1vw, 1rem);
+    font-family: monospace;
+    white-space: pre-wrap;
+    overflow: auto;
+    resize: both;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    textarea {
+        min-height: 150px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    textarea {
+        min-height: 100px;
+        font-size: 0.75rem;
+    }
+}
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #1e40af;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.875rem;
+    margin: 0;
+}

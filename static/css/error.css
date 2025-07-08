@@ -1,0 +1,102 @@
+body {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid #d1d5db;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 1rem;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+nav a.back-button {
+    padding: 0.5rem 1rem;
+    background-color: #f3f4f6;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-right: 1px;
+}
+
+nav a.back-button:hover {
+    background-color: #4174dc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2563eb;
+    font-family: 'Pacifico', Arial, sans-serif;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flex h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #dc2626;
+    margin: 1rem 0;
+}
+
+.flex p {
+    font-size: 1rem;
+    color: #374151;
+    margin: 0.5rem 0;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.py-12 {
+    padding: 3rem 0;
+}
+
+.px-4 {
+    padding: 0 1rem;
+}
